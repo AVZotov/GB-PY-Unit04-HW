@@ -37,3 +37,7 @@ while index < bushes_quantity:
 max_harvest = max(result.values())
 position = [i for i in result if result[i] == max_harvest]
 print(f'Max harvest locations: {position}, berries amount: {max_harvest}')
+# position = max(result, key=result.get)
+# max_harvest = result[position]
+# print(f'Max harvest locations: {position}, berries amount: {max_harvest}')
+
